@@ -1,0 +1,338 @@
+/* Decorative header logo area */
+.logo-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(90deg, #e3f0ff 0%, #f8fafd 100%);
+  border-radius: 40px;
+  box-shadow: 0 2px 12px rgba(45, 108, 223, 0.08);
+  padding: 0.5rem 1.5rem;
+  gap: 1rem;
+}
+.logo-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #2d6cdf;
+  box-shadow: 0 2px 8px rgba(45, 108, 223, 0.12);
+  background: #fff;
+}
+.logo-title {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 1rem;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 2.2rem;
+  color: #01417d;
+  letter-spacing: 1.5px;
+  text-shadow: 0 2px 8px rgba(45, 108, 223, 0.08);
+}
+
+/* Footer decoration */
+.footer-socials a {
+  margin: 0 0.3rem;
+  font-size: 1.3rem;
+  transition: color 0.2s, transform 0.2s;
+}
+.footer-socials a:hover {
+  color: #2d6cdf;
+  transform: scale(1.2) rotate(-8deg);
+}
+.footer-contact {
+  display: inline-block;
+  margin: 0.2rem 0;
+  font-size: 1rem;
+}
+/* Logo header styles */
+.logo-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+.logo-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+.logo-title {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 1rem;
+}
+
+
+.contact-section {
+  max-width: 500px;
+  margin: 2.5rem auto 2rem auto;
+  background: #f8fafd;
+  border-radius: 16px;
+  box-shadow: 0 6px 32px rgba(45, 108, 223, 0.10);
+  padding: 2.5rem 2rem 2rem 2rem;
+  text-align: center;
+}
+.contact-section h2 {
+  color: #2d6cdf;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.contact-section h2 {
+  color: #2d6cdf;
+  margin-bottom: 1.5rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.contact-form label {
+  text-align: left;
+  color: #01417d;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.6rem;
+  border: 1px solid #b3c6e0;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: #f7fafd;
+  resize: vertical;
+  transition: border 0.2s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border: 1.5px solid rgb(35, 35, 221), ;
+  outline: none;
+}
+
+.contact-form button {
+  background: darkblue;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.7rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background 0.2s;
+}
+
+.contact-form button:hover {
+  background: darkblue;
+}
+
+.contact-section a {
+  color: darkblue;
+  text-decoration: underline;
+  word-break: break-all;
+}
+.navbar {
+  background:darkblue;
+  padding: 0.5rem 0;
+  box-shadow: 0 2px 8px rgba(45, 108, 223, 0.08);
+}
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.navbar li {
+  display: inline;
+}
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+.navbar a:hover, .navbar a:focus {
+  background: darkblue;
+  color: #fff;
+}
+.gallery {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(45, 108, 223, 0.07);
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.gallery h2 {
+  color: #2d6cdf;
+  margin-bottom: 1.5rem;
+}
+
+.gallery img {
+  display: inline-block;
+  margin: 0.5rem 1rem;
+  max-width: 220px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 16px rgba(45, 108, 223, 0.12);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 24px rgba(45, 108, 223, 0.18);
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background:
+    linear-gradient(120deg, rgba(240,244,248,0.85) 0%, rgba(217,231,250,0.85) 100%),
+    url('IMAGE/521953866_24332918459677644_3932153111649338819_n\ \(1\)\ -\ Copy.jpg') 
+    no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+header {
+  background: darkblue;
+  color: whitesmoke;
+  padding: 2rem 0 1rem 0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(45, 108, 223, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+header p {
+  margin: 0.5rem 0 0 0;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+section {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(45, 108, 223, 0.07);
+  padding: 2rem;
+}
+
+section h2 {
+  color: lightskyblue;
+  margin-top: 0;
+}
+
+.certificate {
+  text-align: center;
+}
+
+
+.certificate img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 16px rgba(45, 108, 223, 0.15);
+  margin-top: 1rem;
+}
+
+footer {
+  background: darkblue;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0 10px 0;
+  font-size: 1rem;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 -2px 8px rgba(45, 108, 223, 0.1);
+  letter-spacing: 0.5px;
+}
+gallery{
+    text-align:center;
+    color:#888;
+    font-size:0.95rem;
+    margin-top:0.5rem;
+    max-width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(45,108,223,0.08);
+}
+
+@media (max-width: 600px) {
+  section {
+    padding: 1rem;
+    margin: 1rem;
+  }
+  header h1 {
+    font-size: 1.5rem;
+  }
+}
+
+header {
+  background-color: #01417d;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+section {
+  padding: 30px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.about {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.about h2,
+.certificate h2 {
+  color: #01417d;
+  margin-bottom: 10px;
+}
+
+.certificate img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  display: block;
+  margin: 20px auto;
+}
+
+
