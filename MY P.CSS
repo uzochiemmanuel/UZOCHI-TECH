@@ -10,6 +10,7 @@
   padding: 0.5rem 1.5rem;
   gap: 1rem;
 }
+
 .logo-img {
   width: 70px;
   height: 70px;
@@ -19,6 +20,7 @@
   box-shadow: 0 2px 8px rgba(45, 108, 223, 0.12);
   background: #fff;
 }
+
 .logo-title {
   display: inline-block;
   vertical-align: middle;
@@ -36,35 +38,17 @@
   font-size: 1.3rem;
   transition: color 0.2s, transform 0.2s;
 }
+
 .footer-socials a:hover {
   color: #2d6cdf;
   transform: scale(1.2) rotate(-8deg);
 }
+
 .footer-contact {
   display: inline-block;
   margin: 0.2rem 0;
   font-size: 1rem;
 }
-/* Logo header styles */
-.logo-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 0.5rem;
-}
-.logo-img {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  object-fit: cover;
-  vertical-align: middle;
-}
-.logo-title {
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 1rem;
-}
-
 
 .contact-section {
   max-width: 500px;
@@ -75,15 +59,11 @@
   padding: 2.5rem 2rem 2rem 2rem;
   text-align: center;
 }
-.contact-section h2 {
-  color: #2d6cdf;
-  margin-bottom: 2rem;
-  font-size: 2rem;
-}
 
 .contact-section h2 {
   color: #2d6cdf;
   margin-bottom: 1.5rem;
+  font-size: 2rem;
 }
 
 .contact-form {
@@ -114,7 +94,7 @@
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border: 1.5px solid rgb(35, 35, 221), ;
+  border: 1.5px solid rgb(35, 35, 221);
   outline: none;
 }
 
@@ -140,11 +120,13 @@
   text-decoration: underline;
   word-break: break-all;
 }
+
 .navbar {
-  background:darkblue;
+  background: darkblue;
   padding: 0.5rem 0;
   box-shadow: 0 2px 8px rgba(45, 108, 223, 0.08);
 }
+
 .navbar ul {
   list-style: none;
   margin: 0;
@@ -153,9 +135,11 @@
   justify-content: center;
   gap: 2rem;
 }
+
 .navbar li {
   display: inline;
 }
+
 .navbar a {
   color: #fff;
   text-decoration: none;
@@ -165,10 +149,12 @@
   border-radius: 4px;
   transition: background 0.2s, color 0.2s;
 }
+
 .navbar a:hover, .navbar a:focus {
   background: darkblue;
   color: #fff;
 }
+
 .gallery {
   max-width: 800px;
   margin: 2rem auto;
@@ -201,9 +187,8 @@
 
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
-  background:
-    linear-gradient(120deg, rgba(240,244,248,0.85) 0%, rgba(217,231,250,0.85) 100%),
-    url('IMAGE/521953866_24332918459677644_3932153111649338819_n\ \(1\)\ -\ Copy.jpg') 
+  background: linear-gradient(120deg, rgba(240,244,248,0.85) 0%, rgba(217,231,250,0.85) 100%),
+    url('IMAGE/521953866_24332918459677644_3932153111649338819_n\ (1)\ -\ Copy.jpg') 
     no-repeat center center fixed;
   background-size: cover;
   margin: 0;
@@ -212,43 +197,49 @@ body {
 }
 
 header {
-  background: darkblue;
-  color: whitesmoke;
-  padding: 2rem 0 1rem 0;
+  background-color: #01417d;
+  color: #fff;
+  padding: 40px 20px;
   text-align: center;
   box-shadow: 0 2px 8px rgba(45, 108, 223, 0.1);
 }
 
 header h1 {
-  margin: 0;
   font-size: 2.5rem;
+  margin: 0;
   letter-spacing: 2px;
 }
 
 header p {
-  margin: 0.5rem 0 0 0;
   font-size: 1.2rem;
-  font-weight: 300;
+  margin-top: 10px;
 }
 
 section {
-  max-width: 700px;
-  margin: 2rem auto;
+  padding: 30px 20px;
+  max-width: 900px;
+  margin: auto;
   background: #fff;
   border-radius: 12px;
   box-shadow: 0 4px 24px rgba(45, 108, 223, 0.07);
-  padding: 2rem;
 }
 
 section h2 {
-  color: lightskyblue;
+  color: #2d6cdf;
   margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.about {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 
 .certificate {
   text-align: center;
 }
-
 
 .certificate img {
   max-width: 90%;
@@ -271,15 +262,6 @@ footer {
   box-shadow: 0 -2px 8px rgba(45, 108, 223, 0.1);
   letter-spacing: 0.5px;
 }
-gallery{
-    text-align:center;
-    color:#888;
-    font-size:0.95rem;
-    margin-top:0.5rem;
-    max-width: 200px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(45,108,223,0.08);
-}
 
 @media (max-width: 600px) {
   section {
@@ -290,49 +272,3 @@ gallery{
     font-size: 1.5rem;
   }
 }
-
-header {
-  background-color: #01417d;
-  color: #fff;
-  padding: 40px 20px;
-  text-align: center;
-}
-
-header h1 {
-  font-size: 2.5rem;
-}
-
-header p {
-  font-size: 1.2rem;
-  margin-top: 10px;
-}
-
-section {
-  padding: 30px 20px;
-  max-width: 900px;
-  margin: auto;
-}
-
-.about {
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
-}
-
-.about h2,
-.certificate h2 {
-  color: #01417d;
-  margin-bottom: 10px;
-}
-
-.certificate img {
-  width: 100%;
-  max-width: 600px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-  display: block;
-  margin: 20px auto;
-}
-
-
